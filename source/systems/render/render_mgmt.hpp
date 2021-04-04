@@ -8,9 +8,6 @@
 
 
 #include "opengl_utility.hpp"
-#include "../errorhandler.hpp"
-#include "../std_libs.hpp"
-
 
 #include <SDL.h>
 

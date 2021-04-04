@@ -1,5 +1,10 @@
 
+//header
 #include "opengl_utiltyz.hpp"
+
+//other libs
+#include "../std_libs.hpp"
+#include "../errorhandler.hpp"
 
 
 using namespace raz_mobile_01;

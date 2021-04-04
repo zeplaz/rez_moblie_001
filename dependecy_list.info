@@ -1,0 +1,7 @@
+
+
+cmake
+glm
+build-essential
+libgl1-mesa-dev 
+libsdl2-dev

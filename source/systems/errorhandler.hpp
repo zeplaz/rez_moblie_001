@@ -6,6 +6,8 @@
 #ifndef RA_ERROR_HANDLER_HPP
 #define RA_ERROR_HANDLER_HPP
 
+namespace raz_mobile_01
+{
 
  enum Exit_Error_Code : int{
 
@@ -70,5 +72,6 @@
      return "UNKNOWN_ERROR";
    }
  }
-
+  
+}
  #endif

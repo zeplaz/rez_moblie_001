@@ -6,10 +6,8 @@
 
 #include "render/render_mgmt"
 
-namespace raz_mobile
+namespace raz_mobile_01
 {
-
-
 
 
  enum class Engine_Status{
@@ -28,7 +26,10 @@ sturct Engine
 {
     Engine_Status m_eng_status;
 
-    int engine cycle();
+    int cycle();
+    void configure(void* pak)
+    int ignition();
+
     SDL_Event event;
 
 

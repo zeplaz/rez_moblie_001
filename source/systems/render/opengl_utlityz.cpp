@@ -1,11 +1,14 @@
 
+
+
+
 //header
 #include "opengl_utiltyz.hpp"
 
 //other libs
-#include "../std_libs.hpp"
-#include "../errorhandler.hpp"
 
+#include "../errorhandler.hpp"
+#include <iostream>
 
 using namespace raz_mobile_01;
 
@@ -57,7 +60,9 @@ void APIENTRY GLAPIENTRY glDebugOutput(GLenum source,
  std::cout << std::endl;
 }
 
-
+/*
+from lazyfoo.net/tutorials/SDL/51_SDL_and_modern_opengl
+*/
 
 
 void printProgramLog( GLuint program )

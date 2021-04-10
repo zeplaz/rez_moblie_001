@@ -1,19 +1,22 @@
 
+#ifndef RA_ERROR_HANDLER_HPP
+#define RA_ERROR_HANDLER_HPP
 
 
 //#ifndef DEBUG_01
 #define DEBUG_01
 //#endif 
 
-#ifndef RA_ERROR_HANDLER_HPP
-#define RA_ERROR_HANDLER_HPP
+#include <string>
 
 namespace raz_mobile_01
 {
 
  enum Exit_Error_Code : int{
 
-   PARSER_FAIL = -11,
+   SHADER_PARSER_FAIL = -11,
+   PARSER_FAIL = -10,
+   ENGINE_CONFIGURE_FAIL = -34,
    TEXTURE_FAIL = -12,
    SHADER_FAIL = -13,
    MAIN_FAIL = -14,
@@ -25,6 +28,7 @@ namespace raz_mobile_01
    STBI_LOAD_FAIL = -20,
    OI_UTILITYZ_FAIL =-31
    SDL_FAIL = -33;
+   
  };
 
 
@@ -32,8 +36,14 @@ namespace raz_mobile_01
  {
    switch(in_error)
    {
-     case PARSER_FAIL :
+     case PARSER_FAIL : 
      return "PARSER_FAIL";
+     
+     case ENGINE_CONFIGURE_FAIL :
+     return "ENGINE_CONFIGURE_FAIL"
+     
+     case SHADER_PARSER_FAIL :
+     return "SHADER_PARSER_FAIL";
 
      case TEXTURE_FAIL:
      return "TEXTURE_FAIL";

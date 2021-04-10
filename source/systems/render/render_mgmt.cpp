@@ -2,7 +2,9 @@
 
 
 
+
 using namespace raz_mobile_01;
+
 
 void raz_render_mgmt::render()
 {
@@ -15,10 +17,7 @@ void raz_render_mgmt::render()
         run_gl_shader_programs();
     }
     
-
 }
-
-
 
 void raz_render_mgmt::run_gl_shader_programs()
 {
@@ -27,7 +26,6 @@ void raz_render_mgmt::run_gl_shader_programs()
       glUseProgram(iter)
       glUseProgram( NULL );    
 }
-
 
 
 void  window_mgmt::focus()

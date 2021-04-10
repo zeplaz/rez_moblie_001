@@ -8,12 +8,11 @@
 
 
 #include "opengl_utility.hpp"
-
-#include <SDL.h>
-
+#include "shader_handler.hpp"
 
 namespace raz_mobile_01
 {
+
 
 class window_mgmt
 {
@@ -66,11 +65,13 @@ class render_mgmt
     
     int gTotalDisplays = 0;
     SDL_Rect* gDisplayBounds = NULL; 
+
     window_mgmt window;
+    shader_program_mgmt shader_mgmt;
 
-    const constexpr int MAX_SHADER_PROGRAMS = 3; 
-    std::array<int,MAX_SHADER_PROGRAMS> shader_progam_handles;
-
+    //const constexpr int MAX_SHADER_PROGRAMS = 3; 
+    //std::array<int,MAX_SHADER_PROGRAMS> shader_progam_handles;
+    
 
 public : 
 
@@ -80,12 +81,6 @@ void run_gl_shader_programs();
 
 };
 
-
-struct shader_program_data{
-GLuint gprogram_id = 0;
-
- 
-};   
 
 
 }

@@ -1,6 +1,13 @@
 
 
+#ifndef RAZ_MOBILE_ENTITY_PROCESSOR_HPP
+#define RAZ_MOBILE_ENTITY_PROCESSOR_HPP
+
 #include "entity_list.hpp"
+
+namespace raz_m01
+
+{
 
 
 using int_ES = std::uint32_t;
@@ -34,3 +41,7 @@ for ()
 */
 
 };
+
+}
+
+#endif

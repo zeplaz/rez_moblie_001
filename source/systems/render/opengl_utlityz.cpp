@@ -10,7 +10,7 @@
 #include "../errorhandler.hpp"
 #include <iostream>
 
-using namespace raz_mobile_01;
+using namespace raz_m01;
 
 
 void APIENTRY GLAPIENTRY glDebugOutput(GLenum source,

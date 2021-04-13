@@ -7,7 +7,13 @@
 #include <iostream>
 #include <filesystem>
 
+
+
 namespace stdfs = std::filesystem;
+
+namespace raz_m01
+{
+
 
 
 template <class T, class... args>
@@ -22,6 +28,8 @@ class file_mgmt
 
     stdfs::directory_entry app_root;
     std::vector<stdfs::path> config_paths;
+    stdfs::temp_directory_path usable_temp_dir;
+    
 
     void load_config_paths();
     void load_root_folder();
@@ -53,11 +61,14 @@ class parser
 
     void load_config_file()
     void load_file(stdfs::path pathz); 
-
+    void strip_comments(std::string raw_file)
+    {
+        std::size_t pos;
+    }
 
     public :
 };
 
-
+}
 
 #endif

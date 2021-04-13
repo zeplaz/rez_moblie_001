@@ -3,7 +3,7 @@
 
 
 #include "shader_handle.hpp"
-using namespace raz_mobile_01;
+using namespace raz_m01;
 
 shader_program::load_shadbit(std::string name_shader, Shader_Type shd_type)
 {

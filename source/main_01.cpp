@@ -8,7 +8,7 @@ int main(int argc,char* argv[] )
 
     
     
-    raz_mobile_01::Engine engine;
+    raz_m01::Engine engine;
 
     engine.configure();
         

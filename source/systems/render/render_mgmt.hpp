@@ -10,7 +10,7 @@
 #include "opengl_utility.hpp"
 #include "shader_handler.hpp"
 
-namespace raz_mobile_01
+namespace raz_m01
 {
 
 

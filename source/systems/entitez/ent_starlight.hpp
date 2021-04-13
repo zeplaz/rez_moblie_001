@@ -1,6 +1,13 @@
 
 
 
+#ifndef RAZ_MOBILE_STARTLIGHT_ENTITY_HPP
+#define RAZ_MOBILE_STARTLIGHT_ENTITY_HPP
+
+
+namespace raz_m01{
+
+
 
 struct position_data
 {
@@ -32,3 +39,7 @@ struct starlight_data
 
 
 };
+
+}
+
+#endif

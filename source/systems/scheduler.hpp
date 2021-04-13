@@ -13,7 +13,6 @@
 #include <functional>
 #include <condtional_variable>
 
-
 #include <future>
 ///handles ids of compoents 
 ///handles id of entienes to process via comments. mangers.
@@ -31,6 +30,9 @@
     constexpr std::size_t hardware_destructive_interference_size
         = 2 * sizeof(std::max_align_t);
 #endif
+
+namespace raz_m01{
+
 
 /*//
 main body of schduler
@@ -84,7 +86,6 @@ struct thread_manger
     thread_pool* mthread_pool;
 
 };
-
 
 class thread_pool
 {
@@ -143,15 +144,12 @@ class thread_pool
 class task_schedule_er
 {   
  
-
 void setup_threads();
 
 task_schedule_er()
 {
     setup_threads();
 }
-
-
 
 // entity handler?
    std::unordered_set<std::string> named_entity_set;
@@ -162,6 +160,7 @@ task_schedule_er()
 };
 void check_avilable_threads()
 
+/*
 void threads_bussy_add_que()
 {
     std::priority_queue<>
@@ -169,4 +168,5 @@ void threads_bussy_add_que()
 void task_schedule_er::
 }
 */
+}
 #endif

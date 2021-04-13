@@ -2,7 +2,7 @@
 
 
 
-using namespace raz_mobile_01;
+using namespace raz_m01;
 
     void thread_manger::detect_thread_count()
     {   

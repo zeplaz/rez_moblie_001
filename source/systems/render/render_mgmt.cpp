@@ -3,7 +3,7 @@
 
 
 
-using namespace raz_mobile_01;
+using namespace raz_m01;
 
 
 void raz_render_mgmt::render()

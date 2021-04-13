@@ -7,7 +7,7 @@
 //#include "render/render_mgmt"
 
 #include "sdl_systms.hpp"
-namespace raz_mobile_01
+namespace raz_m01
 {
 namespace globalz {
 static float delta_time = 0.0f;	// time between current frame and last frame

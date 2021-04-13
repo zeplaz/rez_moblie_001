@@ -9,7 +9,7 @@
 
 #include "gl_libs.hpp"
 
-namespace raz_mobile_01
+namespace raz_m01
 {
 
 void APIENTRY GLAPIENTRY glDebugOutput(GLenum source,
